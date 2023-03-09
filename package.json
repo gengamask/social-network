@@ -1,0 +1,25 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gengamask/social-network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gengamask/social-network/issues"
+  },
+  "homepage": "https://github.com/gengamask/social-network#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.0.13"
+  }
+}

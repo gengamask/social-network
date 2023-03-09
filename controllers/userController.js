@@ -20,7 +20,7 @@ module.exports = {
         .catch((e) => res.status(500).json(e));
     },
     // creating a user
-    createUeer(req, res) {
+    createUser(req, res) {
         User.create(req.body)
             .then((user) => res.json(user))
             .catch((e) => res.status(500).json(e));
