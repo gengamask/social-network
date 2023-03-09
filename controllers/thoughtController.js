@@ -16,7 +16,7 @@ module.exports = {
             !thought
                 ? res.status(404).json({ message:'Thought is not applicable within the ID that is given' })
                 : res.json(thought)
-            )
+        )
             .catch((e) => res.status(500).json(e))
     },
     // creating a new thought
